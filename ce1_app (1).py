@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 # -----------------------------
 # Load trained model and features
 # -----------------------------
-model, categorical_features, numeric_features = joblib.load("co2_knn_model.pkl")
+model, categorical_features, numeric_features = joblib.load("car_emissions_model.pkl")
 
 st.set_page_config(page_title="CO₂ Emissions Predictor", layout="centered")
 
