@@ -31,5 +31,6 @@ Categorical features: Make, Model, Vehicle Class, Transmission, Fuel Type
 
 ### Deployment
 The project is deployed using Streamlit Cloud.
-**[Click here to try the live app ] (https://co2emission-piddgpdmfyovzgpfdhmpc7.streamlit.app/)**
+**[Click here to try the live app ]**
+**(https://co2emission-piddgpdmfyovzgpfdhmpc7.streamlit.app/)**
 
