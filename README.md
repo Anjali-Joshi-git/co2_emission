@@ -16,11 +16,14 @@ This project is focused on predicting CO₂ emissions of vehicles using differen
 - Visualization of results  
 
 ### Project Structure:
-- `ce_train.py` → Training script  
-- `ce1_app.py` → Streamlit app  
-- `co2_emissions.csv` → Dataset  
-- `requirements.txt` → Dependencies
-- `CO2_ML_Emission_Project.ipynb`→ Jupyter Notebook(EDA + Model Training)
+├── ce_app.py              # Streamlit app
+├── car_emissions_model.pkl # Trained ML pipeline
+├── requirements.txt       # Python dependencies
+├── runtime.txt            # Python version for deployment
+├── data/                  # Dataset (if included)
+└── README.md              # Project documentation
+
+
 
  ### Dataset
 The dataset contains details about different vehicles:
@@ -31,6 +34,6 @@ Categorical features: Make, Model, Vehicle Class, Transmission, Fuel Type
 
 ### Deployment
 The project is deployed using Streamlit Cloud.
-**[Click here to try the live app ]**
-**(https://co2emission-piddgpdmfyovzgpfdhmpc7.streamlit.app/)**
+
+**[Click here to try the live app ] (https://co2emission-piddgpdmfyovzgpfdhmpc7.streamlit.app/)**
 
