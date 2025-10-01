@@ -16,12 +16,17 @@ This project is focused on predicting CO₂ emissions of vehicles using differen
 - Visualization of results  
 
 ### Project Structure:
-├── ce_app.py              # Streamlit app
-├── car_emissions_model.pkl # Trained ML pipeline
-├── requirements.txt       # Python dependencies
-├── runtime.txt            # Python version for deployment
-├── data/                  # Dataset (if included)
-└── README.md              # Project documentation
+ ├── ce_app.py              # Streamlit app
+
+ ├── car_emissions_model.pkl # Trained ML pipeline
+
+ ├── requirements.txt       # Python dependencies
+
+ ├── runtime.txt            # Python version for deployment
+
+ ├── data/                  # Dataset (if included)
+
+ └── README.md              # Project documentation
 
 
 
