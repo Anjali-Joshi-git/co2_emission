@@ -12,9 +12,18 @@ st.write("Provide vehicle details below to estimate CO₂ emissions:")
 # --- Categorical Inputs ---
 make = st.text_input("Make (e.g., Toyota, Honda, Ford)")
 model_name = st.text_input("Model (e.g., Corolla, Civic, Focus)")
-vehicle_class = st.selectbox("Vehicle Class", ["SUV", "Sedan", "Truck", "Compact", "Other"])
-transmission = st.selectbox("Transmission", ["Automatic", "Manual", "Other"])
-fuel_type = st.selectbox("Fuel Type", ["Petrol", "Diesel", "Hybrid", "Electric", "Other"])
+#vehicle_class = st.selectbox("Vehicle Class", ["SUV", "Sedan", "Truck", "Compact", "Other"])
+vehicle_class = st.selectbox("Vehicle Class", [
+        "SUV - Small", "SUV - Standard", "Compact", "Mid-size", "Full-size",
+        "Two-seater", "Station wagon - Small", "Station wagon - Mid-size",
+        "Pickup truck - Small", "Pickup truck - Standard", "Minivan",
+        "Van - Passenger", "Van - Cargo", "Special purpose vehicle",
+        "Luxury", "Sports"
+    ])
+#transmission = st.selectbox("Transmission", ["Automatic", "Manual", "Other"])
+transmission = st.selectbox("Transmission", ['AS', 'M', 'AV', 'AM', 'A'])
+fuel_type = st.selectbox("Fuel Type", ['Z', 'D', 'X', 'E', 'N'])
+#fuel_type = st.selectbox("Fuel Type", ["Petrol", "Diesel", "Hybrid", "Electric", "Other"])
 
 # --- Numeric Inputs ---
 engine_size = st.number_input("Engine Size (L)", min_value=0.5, max_value=10.0, step=0.1)
