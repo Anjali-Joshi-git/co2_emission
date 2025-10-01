@@ -1,7 +1,7 @@
 # co2_emission
 This project is focused on predicting CO₂ emissions of vehicles using different machine learning models. The goal is to analyze how various factors such as engine size, fuel type, number of cylinders, and vehicle weight affect carbon emissions, and then build models to make accurate predictions.
 
-**[CO2 Emission Predictor ] (https://co2emission-zjpb7n3z3edqnfkukjyvz7.streamlit.app/)**
+**[CO2 Emission Predictor ] (https://co2emission-piddgpdmfyovzgpfdhmpc7.streamlit.app/)**
 
 #  Technologies Used
 - Python 🐍
@@ -31,5 +31,5 @@ Categorical features: Make, Model, Vehicle Class, Transmission, Fuel Type
 
 ### Deployment
 The project is deployed using Streamlit Cloud.
-**[Click here to try the live app ] (https://co2emission-zjpb7n3z3edqnfkukjyvz7.streamlit.app/)**
+**[Click here to try the live app ] (https://co2emission-piddgpdmfyovzgpfdhmpc7.streamlit.app/)**
 
